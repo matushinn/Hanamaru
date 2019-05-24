@@ -17,7 +17,7 @@ class ResultViewController: UIViewController {
     @IBOutlet weak var lastScore: LTMorphingLabel!
     
     var modeSecond = 0.0
-    var level:Int = 0
+    var level:String!
     //正解数
     var correctAnsNum:Int = 0
     var modeQuestionsNum = 0
@@ -51,33 +51,22 @@ class ResultViewController: UIViewController {
         levelLabel.morphingEffect = .burn
         
         switch level {
-        case 1:
-            levelText = "初級"
-        case 2:
-            levelText = "中級"
-        case 3:
-            levelText = "上級"
+        case "Beginner":
+            levelText = "Beginner"
+        case "Intermediate":
+            levelText = "Intermediate"
+        case "Advanced":
+            levelText = "Advanced"
         default:
             break
         }
         levelLabel.text = levelText
         
-        switch gameFormat {
-            
-        case 1:
+        
             //制限時間
             lastScore.text = "\(correctAnsNum)問"
             rank = modeSecond/Double(correctAnsNum)
             
-        case 2:
-            //制限問題
-            print("count")
-            lastScore.text = String(format: "%.1f", count)+"秒"
-            rank = count/Double(correctAnsNum)
-            
-        default:
-            break
-        }
         
         rankCheck()
     }
@@ -87,7 +76,7 @@ class ResultViewController: UIViewController {
     func rankCheck(){
        
         switch level{
-        case 1:
+        case "Beginner":
             switch rank {
             case 0..<1.0:
                 rankLabel.textColor = UIColor.blue
@@ -124,7 +113,7 @@ class ResultViewController: UIViewController {
                 rankLabel.textColor = UIColor.magenta
                 rankResult = "Z"
             }
-        case 2:
+        case "Intermediate":
             switch rank {
             case 0..<1.0:
                 rankLabel.textColor = UIColor.blue
@@ -162,7 +151,7 @@ class ResultViewController: UIViewController {
                 rankLabel.text = "Z"
                 
             }
-        case 3:
+        case "Advanced":
             switch rank {
             case 0..<2.0:
                 rankLabel.textColor = UIColor.blue
@@ -218,7 +207,7 @@ class ResultViewController: UIViewController {
         
         // 共有する項目
         let shareText = "HANAMARU\n\(levelText)\n\(rankResult!)\n\(lastScore.text!)"
-        let shareWebsite = NSURL(string: "https://itunes.apple.com/us/app/numbernumber/id1444835578?l=ja&ls=1&mt=8")!
+        let shareWebsite = NSURL(string: "https://itunes.apple.com/jp/app/hanamaru/id1450944495?mt=8")!
         
         
         let activityItems = [shareText, shareWebsite] as [Any]

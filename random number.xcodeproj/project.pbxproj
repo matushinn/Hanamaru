@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2EB99E471A9E572A1517E79F /* Pods_random_number.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5367542C0AA98521962C32 /* Pods_random_number.framework */; };
-		37186F4821FEE49E008FF041 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37186F4721FEE49E008FF041 /* FourthViewController.swift */; };
+		370129342292B963002E1375 /* goal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 370129332292B963002E1375 /* goal.mp3 */; };
+		370129362292B9E8002E1375 /* rnumber.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 370129352292B9E8002E1375 /* rnumber.jpg */; };
 		3728E6B121AFDDFE0053497B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3728E6B021AFDDFE0053497B /* AppDelegate.swift */; };
 		3728E6B321AFDDFE0053497B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3728E6B221AFDDFE0053497B /* ViewController.swift */; };
 		3728E6B621AFDDFE0053497B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3728E6B421AFDDFE0053497B /* Main.storyboard */; };
@@ -16,13 +17,9 @@
 		3728E6BB21AFDE020053497B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3728E6B921AFDE020053497B /* LaunchScreen.storyboard */; };
 		3753D1F921FDAAC8007A424D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3753D1F821FDAAC8007A424D /* FirstViewController.swift */; };
 		3753D1FB21FDAAD9007A424D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3753D1FA21FDAAD9007A424D /* SecondViewController.swift */; };
-		3753D1FD21FDAAE5007A424D /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3753D1FC21FDAAE5007A424D /* ThirdViewController.swift */; };
 		3753D1FF21FDAB01007A424D /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3753D1FE21FDAB01007A424D /* ResultViewController.swift */; };
 		3797772021FF36DF001BA3B3 /* maru.png in Resources */ = {isa = PBXBuildFile; fileRef = 3797771F21FF36DF001BA3B3 /* maru.png */; };
 		3797772221FF36E7001BA3B3 /* batu.png in Resources */ = {isa = PBXBuildFile; fileRef = 3797772121FF36E7001BA3B3 /* batu.png */; };
-		3797772521FF50A2001BA3B3 /* siro06.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3797772321FF50A1001BA3B3 /* siro06.mp3 */; };
-		3797772621FF50A2001BA3B3 /* siro02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3797772421FF50A1001BA3B3 /* siro02.mp3 */; };
-		3797772821FF51E1001BA3B3 /* goal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3797772721FF51E1001BA3B3 /* goal.mp3 */; };
 		379777DE22001295001BA3B3 /* hanamaru2.png in Resources */ = {isa = PBXBuildFile; fileRef = 379777DD22001295001BA3B3 /* hanamaru2.png */; };
 		379777E122001502001BA3B3 /* hanamaru02.png in Resources */ = {isa = PBXBuildFile; fileRef = 379777DF22001501001BA3B3 /* hanamaru02.png */; };
 		379777E222001502001BA3B3 /* hanamaru01.png in Resources */ = {isa = PBXBuildFile; fileRef = 379777E022001501001BA3B3 /* hanamaru01.png */; };
@@ -31,7 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		37186F4721FEE49E008FF041 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		370129332292B963002E1375 /* goal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = goal.mp3; sourceTree = "<group>"; };
+		370129352292B9E8002E1375 /* rnumber.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rnumber.jpg; sourceTree = "<group>"; };
 		3728E6AD21AFDDFE0053497B /* random number.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "random number.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3728E6B021AFDDFE0053497B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3728E6B221AFDDFE0053497B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,13 +39,9 @@
 		3728E6BC21AFDE020053497B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3753D1F821FDAAC8007A424D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		3753D1FA21FDAAD9007A424D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		3753D1FC21FDAAE5007A424D /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		3753D1FE21FDAB01007A424D /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		3797771F21FF36DF001BA3B3 /* maru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = maru.png; path = ../../../Downloads/maru.png; sourceTree = "<group>"; };
 		3797772121FF36E7001BA3B3 /* batu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = batu.png; path = ../../../Downloads/batu.png; sourceTree = "<group>"; };
-		3797772321FF50A1001BA3B3 /* siro06.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = siro06.mp3; path = ../../../Downloads/siro06.mp3; sourceTree = "<group>"; };
-		3797772421FF50A1001BA3B3 /* siro02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = siro02.mp3; path = ../../../Downloads/siro02.mp3; sourceTree = "<group>"; };
-		3797772721FF51E1001BA3B3 /* goal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = goal.mp3; path = "../../../Downloads/3DMaze20171009 (1) 2/Assets/Sounds/goal.mp3"; sourceTree = "<group>"; };
 		379777DD22001295001BA3B3 /* hanamaru2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hanamaru2.png; sourceTree = "<group>"; };
 		379777DF22001501001BA3B3 /* hanamaru02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hanamaru02.png; sourceTree = "<group>"; };
 		379777E022001501001BA3B3 /* hanamaru01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hanamaru01.png; sourceTree = "<group>"; };
@@ -99,19 +93,16 @@
 				3728E6BC21AFDE020053497B /* Info.plist */,
 				3753D1F821FDAAC8007A424D /* FirstViewController.swift */,
 				3753D1FA21FDAAD9007A424D /* SecondViewController.swift */,
-				3753D1FC21FDAAE5007A424D /* ThirdViewController.swift */,
 				3753D1FE21FDAB01007A424D /* ResultViewController.swift */,
-				37186F4721FEE49E008FF041 /* FourthViewController.swift */,
 				379777E522005849001BA3B3 /* backhanamaru01.jpg */,
 				3797771F21FF36DF001BA3B3 /* maru.png */,
 				379777DD22001295001BA3B3 /* hanamaru2.png */,
 				379777E32200164B001BA3B3 /* hanamaru03.png */,
+				370129352292B9E8002E1375 /* rnumber.jpg */,
+				370129332292B963002E1375 /* goal.mp3 */,
 				3797772121FF36E7001BA3B3 /* batu.png */,
 				379777E022001501001BA3B3 /* hanamaru01.png */,
 				379777DF22001501001BA3B3 /* hanamaru02.png */,
-				3797772721FF51E1001BA3B3 /* goal.mp3 */,
-				3797772421FF50A1001BA3B3 /* siro02.mp3 */,
-				3797772321FF50A1001BA3B3 /* siro06.mp3 */,
 			);
 			path = "random number";
 			sourceTree = "<group>";
@@ -195,17 +186,16 @@
 			files = (
 				3797772021FF36DF001BA3B3 /* maru.png in Resources */,
 				379777E42200164B001BA3B3 /* hanamaru03.png in Resources */,
-				3797772821FF51E1001BA3B3 /* goal.mp3 in Resources */,
 				3797772221FF36E7001BA3B3 /* batu.png in Resources */,
-				3797772621FF50A2001BA3B3 /* siro02.mp3 in Resources */,
 				3728E6BB21AFDE020053497B /* LaunchScreen.storyboard in Resources */,
 				3728E6B821AFDE020053497B /* Assets.xcassets in Resources */,
+				370129362292B9E8002E1375 /* rnumber.jpg in Resources */,
 				379777E62200584A001BA3B3 /* backhanamaru01.jpg in Resources */,
 				379777E122001502001BA3B3 /* hanamaru02.png in Resources */,
 				3728E6B621AFDDFE0053497B /* Main.storyboard in Resources */,
-				3797772521FF50A2001BA3B3 /* siro06.mp3 in Resources */,
 				379777DE22001295001BA3B3 /* hanamaru2.png in Resources */,
 				379777E222001502001BA3B3 /* hanamaru01.png in Resources */,
+				370129342292B963002E1375 /* goal.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,8 +255,6 @@
 			files = (
 				3753D1FB21FDAAD9007A424D /* SecondViewController.swift in Sources */,
 				3753D1F921FDAAC8007A424D /* FirstViewController.swift in Sources */,
-				3753D1FD21FDAAE5007A424D /* ThirdViewController.swift in Sources */,
-				37186F4821FEE49E008FF041 /* FourthViewController.swift in Sources */,
 				3728E6B321AFDDFE0053497B /* ViewController.swift in Sources */,
 				3728E6B121AFDDFE0053497B /* AppDelegate.swift in Sources */,
 				3753D1FF21FDAB01007A424D /* ResultViewController.swift in Sources */,
@@ -419,6 +407,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M82FLD6C75;
 				INFOPLIST_FILE = "random number/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -438,6 +427,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M82FLD6C75;
 				INFOPLIST_FILE = "random number/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

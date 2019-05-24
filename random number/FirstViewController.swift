@@ -18,8 +18,8 @@ class FirstViewController: UIViewController {
     private var effectTimer: Timer?
     private var index: Int = 0
     
-    var effectList = ["+","-","×","?","="]
-    var titleList = ["HANAMARU","hanamaru"]
+    
+    var titleList = ["HANAMARU","Hanamaru"]
     @IBOutlet weak var titleLabel: LTMorphingLabel!
     
     
